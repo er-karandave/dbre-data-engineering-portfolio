@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/01_streaming_warehouse/ETLWorkerService/.vs/ETLWorkerService
+/01_streaming_warehouse/ETLWorkerService/ETLWorkerService/obj
