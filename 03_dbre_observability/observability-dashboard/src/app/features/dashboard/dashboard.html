@@ -1,0 +1,36 @@
+<div class="dashboard-container">
+  <header class="dashboard-header">
+    <h1>🚀 Unified Database Health Dashboard</h1>
+    <span class="status-badge">● LIVE STREAM</span>
+  </header>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <h3>PostgreSQL: Active Connections & CPU</h3>
+      <!-- <canvas baseChart
+        [data]="lineChartData"
+        [options]="lineChartOptions"
+        [type]="lineChartType">
+      </canvas> -->
+    </div>
+
+    <!-- You can add more cards here for Replication Lag, Cache Hit Ratio, etc. -->
+    <div class="chart-card metric-card">
+      <h3>System Status</h3>
+      <div class="metric-grid">
+        <div class="metric">
+          <span class="label">Replication Lag</span>
+          <span class="value">12ms</span>
+        </div>
+        <div class="metric">
+          <span class="label">Cache Hit Ratio</span>
+          <span class="value">99.8%</span>
+        </div>
+        <div class="metric">
+          <span class="label">Deadlocks</span>
+          <span class="value">0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
